@@ -1,0 +1,56 @@
+/* Style for error message */
+div p {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Style for the Water Intake History section */
+  h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for when no records are found */
+  div p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Style for the intake list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+  }
+  
+  ul li strong {
+    color: #34495e;
+    display: inline-block;
+    width: 80px;
+  }
+  
+  /* Make the entire section a bit more attractive */
+  .history-list-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  

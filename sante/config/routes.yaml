@@ -1,0 +1,15 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+# config/routes.yaml
+get_water_intake:
+    path: /api/water-intake
+    controller: App\Controller\WaterIntakeController::getWaterIntake
+    methods: GET
+
+add_water_intake:
+    path: /api/water-intake/add
+    controller: App\Controller\WaterIntakeController::addWaterIntake
+    methods: POST
